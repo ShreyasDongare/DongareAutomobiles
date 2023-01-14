@@ -34,7 +34,7 @@ const Navigator = () => {
         }
     ]
   return (
-    <div className=" fixed w-full  bottom-[5%] flex justify-center mx-auto rounded-full">
+    <div className=" fixed w-full  bottom-[5%] flex justify-center mx-auto ">
       <div className="bg-cyan-500 flex gap-16 px-8 py-4 rounded-full">
         {
             Navigators.map((nav)=>{
