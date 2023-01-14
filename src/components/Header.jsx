@@ -5,7 +5,7 @@ import wheel from "/images/wheel.png";
 
 const Header = () => {
   return (
-    <header className="w-full h-[100px]  bg-black px-4">
+    <header className="w-full   bg-black px-4">
       <div className="max-w-screen-xl flex justify-between mx-auto">
         <div className="flex items-center relative">
           <img src={car} alt="" className="h-14" />
