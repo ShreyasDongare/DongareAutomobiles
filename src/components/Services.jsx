@@ -62,7 +62,7 @@ const Services = () => {
                 <img
                   src={image}
                   alt={title}
-                  className="h-30 md:h-52  w-52 md:w-[22rem] rounded-lg  "
+                  className="h-28 md:h-52 object-cover  w-52 md:w-[22rem] rounded-lg  "
                 />
                 <h5 className="capitalize md:text-xl py-2">{title}</h5>
               </div>
