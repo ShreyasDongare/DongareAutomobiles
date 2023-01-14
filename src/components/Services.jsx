@@ -62,9 +62,9 @@ const Services = () => {
                 <img
                   src={image}
                   alt={title}
-                  className="h-32 md:h-52  w-52 md:w-[22rem] rounded-lg  "
+                  className="h-30 md:h-52  w-52 md:w-[22rem] rounded-lg  "
                 />
-                <h5 className="capitalize text-xl py-2">{title}</h5>
+                <h5 className="capitalize md:text-xl py-2">{title}</h5>
               </div>
             );
           })}
