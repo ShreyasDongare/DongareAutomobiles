@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsGearFill } from "react-icons/bs";
 import hero from "/images/heroImage.jpg";
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -30,9 +31,11 @@ const Home = () => {
             automotive repairs, installations, and maintenance services, along
             with a top-notch customer experience.
           </p>
+          <Link to={"contact"}>
           <button  className="bg-cyan-600 px-4 py-2 rounded duration-300 hover:bg-cyan-800">
             Contact Now
           </button>
+          </Link>
         </div>
         <div>
           <img

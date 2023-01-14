@@ -2,7 +2,6 @@ import React from 'react'
 
 const About = () => {
   const currrentYear = new Date().getFullYear()
-  console.log(currrentYear)
   return (
     <section
       name="about"
