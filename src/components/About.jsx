@@ -16,8 +16,8 @@ const About = () => {
           <h2 className="text-3xl my-5">
             Why Choose Dongare Automobiles For Your Car Service?
           </h2>
-          <div className="flex ">
-            <h2 className="text-5xl font-mono">1965</h2>
+          <div className="flex  ">
+            <h2 className="text-5xl font-mono flex items-center">1965</h2>
             <div className="bg-rose-700 w-1  mx-4 rounded-xl h"></div>
             <p className='flex items-center'>
               {currrentYear - 1 - 1965}+ Years of experience in car repair and
